@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java:*)",
+      "Bash(where:*)",
+      "Bash(echo $env:ANDROID_HOME)",
+      "Bash(echo:*)",
+      "Bash(powershell -Command \"java -version\":*)",
+      "Bash(powershell -Command \"Get-Command java -ErrorAction SilentlyContinue | Select-Object Source\")",
+      "Bash(powershell -Command:*)",
+      "Bash(powershell.exe -Command \"Test-Path ''C:\\\\Program Files\\\\Microsoft\\\\jdk-17*''\")",
+      "Bash(dir \"C:\\\\Program Files\\\\Microsoft\")",
+      "Bash(findstr:*)",
+      "Bash(export JAVA_HOME=\"C:\\\\Program Files\\\\Microsoft\\\\jdk-17.0.17.10-hotspot\")",
+      "Bash(export PATH=\"$JAVA_HOME/bin:$PATH\")",
+      "Bash(yes:*)",
+      "Bash(\"C:\\\\Users\\\\sulta\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmdline-tools\\\\latest\\\\bin\\\\sdkmanager.bat\" --licenses)",
+      "Bash(\"C:\\\\Users\\\\sulta\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmdline-tools\\\\latest\\\\bin\\\\sdkmanager.bat\" \"platform-tools\" \"platforms;android-34\" \"build-tools;34.0.0\")",
+      "Bash(export ANDROID_HOME=\"C:\\\\Users\\\\sulta\\\\AppData\\\\Local\\\\Android\\\\Sdk\")",
+      "Bash(./gradlew.bat assembleDebug:*)",
+      "Bash(Get-ChildItem \"C:\\\\Program Files\" -Directory)",
+      "Bash(Where-Object { $_Name -match \"java|jdk\" })",
+      "Bash(export PATH:*)",
+      "Bash(export JAVA_HOME=\"/c/Program Files/Microsoft/jdk-17.0.17.10-hotspot\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
