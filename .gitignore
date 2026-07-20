@@ -83,3 +83,6 @@ Thumbs.db
 
 # secrets
 secrets.properties
+
+# Claude Code machine-local permissions and absolute tool paths
+.claude/settings.local.json
